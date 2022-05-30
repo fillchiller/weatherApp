@@ -22,7 +22,7 @@
         display: inline-block;
     }
 }
-@media (max-width:769px) {
+@media (max-width:783px) {
     /* 최저최고기온 문자열 수정 */
     #weather ul li .top .info .interTemp{
         flex-direction: column;
