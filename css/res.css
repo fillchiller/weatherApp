@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+@media (max-width:1199px) {
+    #weather{
+        width: 100%;
+    }
+    #weather ul li .top .info .interTemp{
+        flex-direction: column;
+    }
+    #weather ul li .top .info .interTemp .bar{
+        display: none;
+    }
+}
+@media (max-width:991px) {
+    #weather ul li{
+        width: calc(50% - 20px);
+    }
+    #weather ul li .top .info .interTemp{
+        flex-direction: row;
+    }
+    #weather ul li .top .info .interTemp .bar{
+        display: inline-block;
+    }
+}
+@media (max-width:769px) {
+    /* 최저최고기온 문자열 수정 */
+    #weather ul li .top .info .interTemp{
+        flex-direction: column;
+    }
+    #weather ul li .top .info .interTemp .bar{
+        display: none;
+    }
+}
+@media (max-width:661px) {
+    /* 날씨카드 넓이가 310.5px(3열에서 2열로 전환될 때와 동일한 사이즈)이 된 후 100%로 바뀜  */
+    #weather ul li{
+        width: 100%;
+    }
+    #weather ul li .top .info .interTemp{
+        flex-direction: row;
+    }
+    #weather ul li .top .info .interTemp .bar{
+        display: inline-block;
+    }
+}
+@media (max-width:384px) {
+    #user_select .search{
+        width: calc(100% - 20px);
+    }
+    /* 최저최고기온 문자열 수정 */
+    #weather ul li .top .info .interTemp{
+        flex-direction: column;
+    }
+    #weather ul li .top .info .interTemp .bar{
+        display: none;
+    }
+}
